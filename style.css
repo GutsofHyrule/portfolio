@@ -93,7 +93,7 @@ body{
 
 
 .site-banner .banner-area{
-    background: url(https://images.unsplash.com/photo-1468608374703-abdfab03d1bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat;
+    background: url(assets/wallpaperflare.com_wallpaper.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -114,8 +114,13 @@ body{
     border-radius: 50%;
     margin: auto;
     background: url(./assets/_85444345_sw-transience-cover.jpg) no-repeat;
-    background-size: 200%;
+    background-size: 200px;
     background-position: 40% 0;
+    
+}
+
+.pro-img{
+    width: 100px;
 }
 
 .img-edu{
