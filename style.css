@@ -1,15 +1,121 @@
 /* step two, set up up global CSS variables */
 @import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
 
+html{
+    overflow-x: hidden;
+    font-family: 'Bebas Neue', cursive;
+}
+ul{
+    font-family: 'Bebas Neue', cursive;
+}
+p{
+    font-family: 'Bebas Neue', cursive;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+}
+.link-pic{
+    width: 50px;
+}
+.farm-pics{
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.reggae-pics{
+    height: 250px;
+}
+
 body{
     margin: 0;
     padding: 0;
 }
+/* for the triforce */
+
+#triforce{
+    margin:0px auto;
+    width:200px;
+    height:200px;
+  }
+  #triangle{
+      content:'';
+      position:relative; top: -70px;
+      width:0px;
+      height:0px;
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+      border-bottom: 104px solid white;
+      margin-left: 85px;
+    transform: scale(.60);
+
+      
+  }
+  #triangle:before{
+      content:'';
+      position:absolute;
+      display:block;
+      border-left:60px solid transparent;
+      border-right:60px solid transparent;
+      border-bottom:104px solid  white;
+      top:104px;
+      left:-120px;
+  }
+  #triangle:after{
+      content:'';
+      position:absolute;
+      display:block;
+      border-left:60px solid transparent;
+      border-right:60px solid transparent;
+      border-bottom:104px solid white;
+      top:104px;
+  }
+  #shadow{
+      content:'';
+      width:0px;
+      height:0px;
+      position:relative;
+      z-index:-1;
+      border-left:60px solid transparent;
+      border-right:60px solid transparent;
+      border-top:104px solid #ffffff;
+      transform:rotate(60deg);
+      -webkit-transform:rotate(60deg);
+      -moz-transform:rotate(60deg);
+      -ms-transform:rotate(60deg);
+      -o-transform:rotate(60deg);
+      top:27px;
+      left:-73px;
+  }
+  #shadow:before{
+      content:'';
+      border-left:60px solid transparent;
+      border-right:60px solid transparent;
+      border-top:104px solid black;
+      position:absolute;
+      display:block;
+      top:0px;
+      left:0px;
+  }
+  #shadow:after{
+      content:'';
+      border-left:60px solid transparent;
+      border-right:60px solid transparent;
+      border-top:104px solid black;
+      position:absolute;
+      display:block;
+      top:-104px;
+      left:60px;
+  }
+/* for the triforce */
 
 :root{
-    --color-primary: #000000;
-    --color-secondary: #ffffff;
-    --color-border: #ffffff34;
+    --color-primary: rgb(159, 130, 200);
+    --color-secondary: rgb(3, 3, 3);
+    --color-border: black;
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
@@ -123,8 +229,21 @@ body{
     width: 100px;
 }
 
+#projects{
+    background-color: rgb(116, 191, 245);
+}
+
 .text-right{
     font-size: 20px;
+}
+
+ .skills-img{  
+    max-width: 150px;
+    margin: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    justify-content: center;
+    
 }
 
 .img-edu{
@@ -135,6 +254,23 @@ body{
     border-color: red;
     margin-left: 20px;
 }
+.img-res{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+#experience{
+    list-style-position: inside;
+    background-color: rgb(116, 191, 245);
+}
+
+#resume{
+    text-align: center;
+    list-style-position: inside;
+}
+
 
 
 @media screen and (min-width: 768px){

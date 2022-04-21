@@ -3,9 +3,15 @@
 <html lang="en">
 
 <head>
+    <!-- What to talk about during presentation
+ Talk about what technologies were used in your portfolio
+Talk about your biggest challenges with the portfolio and how you overcame them.
+What went well with the project and what was your favorite part to work on.
+Show of the code and explain how you layered everything to work together -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -23,7 +29,10 @@
             <div class="col-3 bgcolor-primary">
                 <nav class="primary-nav navbar-expand-md navbar-top">
                     <div class="site-title text-center text-light py-5">
-                        <a href="#" class="navbar-brand font-staat font-size-40">Spence</a>
+                        <div id="triforce ml-5">
+                            <div id="triangle" class="shadow">
+                              <div id="shadow"></div>
+                            </div>
                         <p class="description text-uppercase font-os">Spencer Dresmann</p>
                     </div>
                     <div class="d-flex flex-column">
@@ -59,54 +68,71 @@
                             <h1 class="text-white font-staat font-size-40 text-uppercase py-3">Spencer Dresmann</h1>
                             <div class="subheading mb-5 text-white font-weight-bold display-5">Cincinnati OH,<br> Phone
                                 #: 513-354-9018 Email: Dresmanns@gmail.com</div>
+                                <a  href="https://github.com/GutsofHyrule"><img class="img-fluid link-pic" src="assets/github.png" alt=""></a>
+                                <a href="https://www.linkedin.com/feed/"><img class="img-fluid link-pic" src="assets/new-linkedin-logo-white-black-png.png" alt=""></a>
                         </div>
                     </div>
                 </section>
-                
+
                 <section id="skills">
                     <div class="banner-area">
                         <h2 class="text-weight-bold text-center">Skills</h2>
                         <div class="container">
-                            <div class="row text-center">
-                                <ul>
-                                    <img  class="w-25" src="assets/Html5.jpg" alt="">
-                                    <img  class="w-25" src="assets/css.png" alt="">
-                                    <img  class="w-25" src="assets/js-logo-1.jpg" alt="">
-                                    
-                                </ul>
+                            <div class="row ">
+                                <div class="col-sm-2 algin-content-center">
+                                    <img class="img-fluid" src="assets/Html5.jpg" alt="HTML logo">
+                                </div>
+                                <div class="col-sm-2 algin-content-center">
+                                    <img class="img-fluid" src="assets/css.png" alt="CSS logo">
+                                </div>
+                                <div class="col-sm-2 algin-content-center">
+                                    <img class="img-fluid" src="assets/js-logo-1.jpg" alt="JavaScript logo">
+                                </div>
+                                <div class="col-sm-2 algin-content-center">
+                                    <img class="img-fluid" src="assets/bootstrap.jpg" alt="bootstrap logo">
+                                </div>
+                                <div class="col-sm-2 algin-content-center">
+                                    <img class="img-fluid" src="assets/github.png" alt="github logo">
+                                </div>
+                                <div class="col-sm-2 algin-content-center">
+                                    <img class="img-fluid" src="assets/Godot_icon.svg.png" alt="Godot logo">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <hr>
+
                 </section>
 
                 <section id="projects">
+                    <hr>
                     <div class="banner-area ">
-                        <h2 class = "text-center">Projects</h2>
-                        <div class="container">
+                        <h2 class="text-center">Projects</h2>
+                        <div class="container ml-3">
                             <div class="row">
                                 <div class="card m-2 text-center" style="width: 18rem;">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <img class="card-img-top" src="assets/aboutme.PNG" alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title">About Me</h5>
                                         <p class="card-text">My first project.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <a href="https://gutsofhyrule.github.io/aboutMe/" class="btn btn-primary">Go
+                                            somewhere</a>
                                     </div>
                                 </div>
                                 <div class="card m-2 text-center" style="width: 18rem;">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <img class="card-img-top" src="assets/madlibs.PNG" alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title">Mad Libs</h5>
                                         <p class="card-text">See what you can come up with.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <a href="https://gutsofhyrule.github.io/madLibs/" class="btn btn-primary">Go
+                                            somewhere</a>
                                     </div>
                                 </div>
                                 <div class="card m-2 text-center" style="width: 18rem;">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <img class="card-img-top" src="assets/doom.PNG" alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">Product.</h5>
-                                        <p class="card-text">Product</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">Product Page</h5>
+                                        <p class="card-text">Wanna buy some Metal?</p>
+                                        <a href="https://gutsofhyrule.github.io/Product/" class="btn btn-primary">Go
+                                            somewhere</a>
                                     </div>
                                 </div>
                             </div>
@@ -114,29 +140,30 @@
                         </div>
                     </div>
                     <div class="banner-area ">
-                        <div class="container">
+                        <div class="container ml-3">
                             <div class="row">
                                 <div class="card m-2 text-center" style="width: 18rem;">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <img class="card-img-top" src="assets/ocarina.PNG" alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">About Me</h5>
-                                        <p class="card-text">My first project.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <h5 class="card-title">Ocarina Soundboard</h5>
+                                        <p class="card-text">Play me a song!</p>
+                                        <a href="https://gutsofhyrule.github.io/ocarina/" class="btn btn-primary">Go
+                                            somewhere</a>
+                                    </div>
+                                </div>
+                                <div class="card m-2 text-center" style="width: 18rem;">
+                                    <img class="card-img-top" src="" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Snake</h5>
+                                        <p class="card-text">How good are you.</p>
+                                        <a href="https://gutsofhyrule.github.io/snake/" class="btn btn-primary">Go somewhere</a>
                                     </div>
                                 </div>
                                 <div class="card m-2 text-center" style="width: 18rem;">
                                     <img class="card-img-top" src="..." alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">Mad Libs</h5>
-                                        <p class="card-text">See what you can come up with.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                </div>
-                                <div class="card m-2 text-center" style="width: 18rem;">
-                                    <img class="card-img-top" src="..." alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Product.</h5>
-                                        <p class="card-text">Product</p>
+                                        <h5 class="card-title">Product Page</h5>
+                                        <p class="card-text">Wanna buy some metal?</p>
                                         <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </div>
                                 </div>
@@ -145,7 +172,7 @@
                         </div>
                     </div>
                     <div class="banner-area text-center">
-                        <div class="container">
+                        <div class="container ml-3 ">
                             <div class="row">
                                 <div class="card m-2 text-center" style="width: 18rem;">
                                     <img class="card-img-top" src="..." alt="Card image cap">
@@ -177,36 +204,83 @@
                         </div>
                     </div>
                 </section>
-                <section id="education">
+                <section id="education p-2">
                     <div class="banner-area">
                         <h2 class="text-weight-bold text-center">Education</h2>
 
-                       <span>
-                        <p class="text-right">2009-2012</p>
-                        <h3 class="ml-3">Oak Hills High School</h3>
-                        <img class="img-edu mb-3" src="assets/1368030_d4c6f63c9ca947bca61d1f5ad48c7855.jpg" alt="Oak Hills logo">
-                    </span>
-                        <h3 class="ml-3 subheading">Cincinnati State</h3>
-                        <p class="ml-3 mr-3 text-right">2012 - 2013</p>
-                        <img class="img-edu mb-3" src="assets/cs.jpg" alt="Cincinnati State logo">
-                        <h3 class="ml-3">Kable Acadamy</h3>
-                        <p class="ml-3 mr-3 text-right">2022</p>
-                        <img class="img-edu mb-3" src="assets/ka.jpg" alt="Kable's logo">
-
+                        <div class="d-flex justify-content-between">
+                            <img class="img-edu mb-3 " src="assets/1368030_d4c6f63c9ca947bca61d1f5ad48c7855.jpg"
+                                algin="left" alt="Oak Hills logo">
+                            <h3 class="m-3">Oak Hills High School</h3>
+                            <p class="ml-3 mr-3 text-right">2009-2012</p>
+                        </div>
+                        <div class="d-flex justify-content-between ">
+                            <img class="img-edu mb-3" src="assets/cs.jpg" alt="Cincinnati State logo">
+                            <h3 class="text-center">Cincinnati State</h3>
+                            <p class="ml-3 mr-3 text-right">2012 - 2013</p>
+                        </div>
+                        <div class="d-flex justify-content-between ">
+                            <img class="img-edu mb-3" src="assets/ka.jpg" alt="Kable's logo">
+                            <h3 class="text-center position-relitive translate-middle mr-5">Kable Academy</h3>
+                            <p class=" mr-5 text-right">2022</p>
+                        </div>
                     </div>
-                    <hr>
                 </section>
                 <section id="experience">
+                    <hr>
                     <div class="banner-area">
-                        <h2 class="text-weight-bold text-center">Experience</h2>
+                        <h2 class="text-weight-bold text-center ml-2">Experience</h2>
+                        <ul class="text-center">
+                            <h3 class="text-weight-bold mr-5 ml-3">Reggae Run</h3>
+                            <img class="reggae-pics" src="assets/reggae.jpg" alt="">
+                            <p>The Reggae Run was a benifit for Make a Wish. It was for my cousin who died when i was young.</p>
+                            <li>Help operate the the stands after the race.</li>
+                            <li>Assisted runners ut giving them water or food in the race.</li>
+                        </ul>
+                        <ul class="text-center" >
+                            <h3>Foreverland Farms</h3>                       
+                            <div class="farmfriends flex-column">
+                            <img class="farm-pics" src="assets/champ.jpg" alt="my best friend">
+                            <img class="farm-pics" src="assets/iggy.jpg" alt="iggy the piggy">
+                            <img class="farm-pics" src="assets/Papasmurfdean.jpg" alt="bunnies">
+                            </div>
+                            <p>Foreverland in a nonprofit animal abuse shelter.</p>
+                            <li class="m-2">Helped cleaned the animals pen.</li>
+                            <li class=" m-2">Preped the animals food.</li>
+                            <a href="https://www.foreverlandfarm.org/"><button class="btn btn-warning m-2">COME HELP!</button></a>
+                        </ul>
                     </div>
                     <hr>
                 </section>
                 <section id="resume">
                     <div class="banner-area">
                         <h2 class="text-weight-bold text-center">Resume</h2>
+                        <img class="img-res" src="assets/anotherremke.jpg" alt="">
+                        <h3>Remke</h3>
+                        <p>2014-2017</p>
+                        <ul class="mr-5">
+                            <li>Assisted all the other departments</li>
+                            <li>Organized iventory in the front and back</li>
+                            <li>Was head of maintenance and cleaning</li>
+                        </ul>
+                        <img class="img-res" src="assets/gamestop-logo.png" alt="">
+                        <h3>GameStop</h3>
+                        <p>2017-2020</p>
+                        <ul class = "mr-5">
+                            <li>Helped guest</li>
+                            <li>Trained new employees</li>
+                            <li>Tested the used systems we got in</li>
+                        </ul>
+                        <img class="img-res" src="assets/454-4548848_fifth-third-bank-icon-fifth-third-bank-logo.png"
+                            alt="">
+                        <h3>5/3</h3>
+                        <p>2020-2022</p>
+                        <ul class=" mr-5">
+                        <li>Processed deposites</li>
+                        <li>Filled out change orders</li>
+                        <li>Won the helping hand award</li>
+                        </ul>   
                     </div>
-                    <hr>
                 </section>
 
 
@@ -231,5 +305,6 @@
     <script src="./vendor/typed/typed.min.js"></script>
 
     <script src="./index.js"></script>
-    </body>
-    </html>
+</body>
+
+</html>
